@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\CoffeeApp.exe.config
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\CoffeeApp.exe
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\CoffeeApp.pdb
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\obj\Debug\CoffeeApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\obj\Debug\CoffeeApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\obj\Debug\CoffeeApp.csproj.CopyComplete
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\obj\Debug\CoffeeApp.exe
+C:\Users\User\Desktop\CoffeeApp\CoffeeApp\obj\Debug\CoffeeApp.pdb

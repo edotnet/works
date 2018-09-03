@@ -1,0 +1,25 @@
+﻿using System;
+
+namespace CoffeeApp
+{
+    public static class Purse
+    {
+        public static decimal Balance { get; private set; } = 0;
+
+        public static void Add(decimal cnt)
+        {
+            if (cnt != 50 && cnt != 100 && cnt != 200 && cnt != 500)
+            {
+                Console.WriteLine("Entered number must be 50 or 100 or 200 or 500.");
+                return;
+            }
+
+            Balance += cnt;
+        }
+
+        public static void Remove(decimal cnt)
+        {
+            Balance -= cnt;
+        }
+    }
+}
