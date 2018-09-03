@@ -10,7 +10,7 @@ namespace CoffeeApp
         {
             if (cnt != 50 && cnt != 100 && cnt != 200 && cnt != 500)
             {
-                Console.WriteLine("Entered number must be 50 or 100 or 200 or 500.");
+                Console.WriteLine("\nThe number to be entered must be one of 50 10 200 500.");
                 return;
             }
 

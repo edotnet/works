@@ -14,22 +14,22 @@ namespace CoffeeApp
             {
                 if (!int.TryParse(Console.ReadLine(), out input))
                 {
-                    Console.WriteLine("Please enter money or coffee index.\n");
+                    Console.WriteLine("\nPlease enter money or coffee index.\n");
                     input = -1;
                 }
                 if (input > 0 && input <= 10)
                 {
                     machine.MakeCoffee(input);
                 }
-                else if (input != 0)
+                else if (input > 10)
                 {
                     Purse.Add(input);
-                    Console.WriteLine($"Your balance {Purse.Balance}\n");
+                    Console.WriteLine($"\nYour balance {Purse.Balance}\n");
                 }
-                else
+                else if (input == 0)
                 {
-                    Console.WriteLine("Thank you.");
-                    Console.WriteLine($"Get back - {Purse.Balance}\n");
+                    Console.WriteLine("\nThank you.");
+                    Console.WriteLine($"Get back - {Purse.Balance}");
                     Purse.Remove(Purse.Balance);
                     Thread.Sleep(1500);
                 }

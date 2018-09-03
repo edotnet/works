@@ -27,20 +27,39 @@ namespace CoffeeApp
                 ing.Sugar -= cof.Sugar;
                 ing.Water -= cof.Water;
 
-                Console.WriteLine($"Product is ready");
+                Console.WriteLine($"\nProduct is ready");
                 Console.WriteLine($"Your balance - {Purse.Balance}");
-                Console.WriteLine("Choose another coffee or add money or enter 0 for take money.\n");
+                Console.WriteLine("Choose another coffee or add money or you can end by pressing 0ю");
 
                 unitOfWork.SaveChanges();
             }
             else if (Purse.Balance < cof.Price)
             {
-                Console.WriteLine("You have not enought money.\n");
+                Console.WriteLine("\nNot enought money.");
+                ShowAllCoffies();
             }
             else
             {
-                Console.WriteLine("We are sorry but we have not enought ingredients.\n");
+                Console.WriteLine("\nWe are sorry but we do not have enough ingredients.");
+                ShowAllCoffies();
             }
+        }
+
+        public void ShowAllCoffies()
+        {
+            Console.WriteLine("\nAll Available Coffee");
+            Console.WriteLine(new string('-', 20));
+            int x = 0;
+            var ing = unitOfWork.Ingredients.GetAll().First();
+            foreach (var item in unitOfWork.Coffee.GetAll())
+            {
+                x++;
+                if (Purse.Balance >= item.Price && ing.Coffe >= item.Coffe
+                && ing.Sugar >= item.Sugar && ing.Water >= item.Sugar)
+                    Console.WriteLine(x + " : " + item.Name + " : " + item.Price);
+            }
+            Console.WriteLine(new string('-', 20));
+            Console.WriteLine();
         }
     }
 }
