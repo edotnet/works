@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Store\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\User\Desktop\Store\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Store\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\Views\MainWindow.g.cs
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\Views\MainWindow.baml
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\Views\OptionsWindow.g.cs
+C:\Users\User\Desktop\Store\WpfApp1\obj\Debug\Views\OptionsWindow.baml

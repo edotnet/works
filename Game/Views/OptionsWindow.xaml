@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp1.Views.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Views"
+        mc:Ignorable="d"
+        Title="Options" Height="200" Width="300" MaxHeight="200" MaxWidth="300" MinHeight="200" MinWidth="300">
+    <Window.Resources>
+        <Style x:Key="RightLabel" TargetType="Label">
+            <Setter Property="HorizontalContentAlignment" Value="Right" ></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center" ></Setter>
+            <Setter Property="Background" Value="Aquamarine"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Style="{StaticResource RightLabel}" Content="Max Moves"  ></Label>
+        <Label Style="{StaticResource RightLabel}" Grid.Row="1" Content="Color"></Label>
+        <Label Style="{StaticResource RightLabel}" Grid.Row="2" Content="Timer"></Label>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="15" Grid.Column="2" Content="{Binding ElementName=Slid ,Path=Value , UpdateSourceTrigger=PropertyChanged}" Margin="2,0,-2,26" Grid.RowSpan="2"/>
+            <Slider x:Name="Slid" VerticalAlignment="Center"  Grid.Column="1" IsEnabled="{Binding ElementName=ChB,Path=IsChecked,UpdateSourceTrigger=PropertyChanged}"  
+                    Maximum="100" TickFrequency="5" IsSnapToTickEnabled="True"/>
+            <CheckBox x:Name="ChB" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Content="Without constraint" HorizontalAlignment="Center" HorizontalContentAlignment="Center" IsChecked="False" 
+                      Command="{Binding CheckedChanged}" >
+            </CheckBox>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <ListBox HorizontalContentAlignment="Center" SelectionChanged="ListBox_SelectionChanged">
+                <ListBoxItem>Aqua</ListBoxItem>
+                <ListBoxItem>Aquamarine</ListBoxItem>
+                <ListBoxItem>AliceBlue</ListBoxItem>
+                <ListBoxItem>Green</ListBoxItem>
+                <ListBoxItem>DarkGreen</ListBoxItem>
+                <ListBoxItem>DeepSkyBlue</ListBoxItem>
+                <ListBoxItem>Pink</ListBoxItem>
+                <ListBoxItem>Yellow</ListBoxItem>
+                <ListBoxItem>YellowGreen</ListBoxItem>
+
+            </ListBox>
+        </Grid>
+
+    </Grid>
+</Window>
