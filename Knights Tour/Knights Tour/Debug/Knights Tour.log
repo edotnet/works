@@ -1,0 +1,14 @@
+﻿  Board.cpp
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(37): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\board.cpp(57): warning C4018: '<=': signed/unsigned mismatch
+  KnightTour.cpp
+  Source.cpp
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\source.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\source.cpp(29): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\edikb\onedrive\рабочий стол\applications\knights tour\knights tour\source.cpp(51): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Knights Tour.vcxproj -> C:\Users\edikb\OneDrive\Рабочий стол\Applications\Knights Tour\Debug\Knights Tour.exe
